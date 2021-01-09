@@ -1,0 +1,135 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.c-container {
+	margin: 50px auto;
+	width: 600px;
+}
+
+.c-add {
+	// .c-add__area
+	&__area {
+		margin-top: 20px;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+
+		.c-button {
+			margin-left: 5px;
+		}
+	}
+
+	// .c-add__name
+	&__name {
+		padding: 4px 8px 3px;
+		width: 350px;
+		border: 1px solid #999;
+		border-radius: 4px;
+		font-size: 1.4rem;
+	}
+}
+
+.c-button {
+	padding: 5px 0;
+	width: 60px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	transition: 0.3s;
+
+	&:hover {
+		color: #fff;
+	}
+
+	// .c-button--green
+	&--green {
+		background-color: #e8e8e8;
+		color: #227d51;
+
+		&:hover {
+			background-color: #227d51;
+		}
+	}
+
+	// .c-button--gray
+	&--gray {
+		background-color: #e8e8e8;
+		color: #333;
+
+		&:hover {
+			background-color: #2b5f75;
+		}
+	}
+
+	// .c-button--yet
+	&--yet {
+		background-color: #e8e8e8;
+		color: #333;
+
+		&:hover {
+			background-color: #2b5f75;
+		}
+	}
+
+	// .c-button--delete
+	&--delete {
+		border-color: #ab3b3a;
+		color: #ab3b3a;
+
+		&:hover {
+			background-color: #ab3b3a;
+		}
+	}
+
+	&.is-active {
+		background-color: #2b5f75;
+		color: #fff;
+	}
+}
+
+.c-filter {
+	margin-top: 20px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
+	.c-button {
+		& + .c-button {
+			margin-left: 5px;
+		}
+	}
+}
+
+.c-lists {
+	margin: 20px auto;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+
+	// .c-lists__head
+	&__head {
+		th {
+			padding-bottom: 5px;
+			border-bottom: 2px solid #333;
+		}
+	}
+
+	// .c-lists__body
+	&__body {
+		td {
+			padding: 10px 0;
+			border-bottom: 1px solid #333;
+		}
+	}
+}
