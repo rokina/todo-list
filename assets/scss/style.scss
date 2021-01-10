@@ -48,47 +48,69 @@ h1 {
   font-weight: bold;
   transition: 0.3s;
 
-  &:hover {
-    color: #fff;
-  }
-
-  // .c-button--green
-  &--green {
+  // .c-button .-green
+  &.-green {
     background-color: #e8e8e8;
     color: #227d51;
 
     &:hover {
       background-color: #227d51;
+      color: #fff;
     }
   }
 
-  // .c-button--gray
-  &--gray {
+  // .c-button .-gray
+  &.-gray {
     background-color: #e8e8e8;
     color: #333;
 
     &:hover {
       background-color: #2b5f75;
+      color: #fff;
     }
   }
 
-  // .c-button--yet
-  &--yet {
+  // .c-button .-yet
+  &.-yet {
     background-color: #e8e8e8;
     color: #333;
 
     &:hover {
-      background-color: #2b5f75;
+      background-color: #51A8DD;
+      color: #fff;
     }
   }
 
-  // .c-button--delete
-  &--delete {
+  // .c-button .-progress
+  &.-progress {
+    background-color: #51A8DD;
+    color: #fff;
+
+    &:hover {
+      background-color: #2b5f75;
+      color: #fff;
+    }
+  }
+
+  // .c-button .-done
+  &.-done {
+    background-color: #2b5f75;
+    color: #fff;
+
+    &:hover {
+      background-color: #e8e8e8;
+      color: #333;
+    }
+  }
+
+  // .c-button .-delete
+  &.-delete {
     border-color: #ab3b3a;
     color: #ab3b3a;
 
     &:hover {
       background-color: #ab3b3a;
+      color: #fff;
     }
   }
 
